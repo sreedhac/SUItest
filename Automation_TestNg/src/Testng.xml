@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterisation Test Suite">
+	<test name="Testing in chrome browser">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Automation"></class>
+		</classes>
+	</test>
+</suite>
